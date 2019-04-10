@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Time</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">Train team.</h1>
+            <p class="lead">it's train time, bitches</p>
+            </p>
+        </div>
+        <div class="section">
+            <div id='card-header' class="card-header">Current Train Schedule</div>
+            <table class='table'>
+                <tr id='lables'>
+                    <th>Train Name</th>
+                    <th>Destination</th>
+                    <th>Frequency (min)</th>
+                    <th>Next Arrival</th>
+                    <th>Minutes Away</th>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <div id='card-header' class="card-header">Current Train Schedule</div>
+            <form>
+                <div class="form-group">
+                    <label>Train Name</label>
+                    <input type="text" class="form-control" placeholder="Thomas the Tank Engine">
+                </div>
+                <div class="form-group">
+                    <label>Destination</label>
+                    <input type="text" class="form-control" placeholder="Neverland">
+                </div>
+                <div class="form-group">
+                    <label>First Train Time (HH:MM - military time)</label>
+                    <input type="text" class="form-control" placeholder="13:13">
+                </div>
+            </form>
+            <button id='btn' type="button" class="btn btn-lg btn-inline">Submit</button>
+
+        </div>
+</body>
+</div>
+
+</html>

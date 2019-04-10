@@ -1,0 +1,32 @@
+.jumbotron {
+    text-align: center;
+    border-radius: 15px;
+}
+
+#lables {
+    font-weight: bold;
+}
+
+#card-header {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: lightblue;
+
+}
+
+.section{
+    border: 3px solid lightblue;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+#btn {
+    background-color: lightblue;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
