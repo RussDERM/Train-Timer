@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Train Time</title>
+    <!-- CSS links -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- jQuery link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Firebase reference -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
 </head>
 
 <body>
@@ -37,20 +42,26 @@
             <form>
                 <div class="form-group">
                     <label>Train Name</label>
-                    <input type="text" class="form-control" placeholder="Thomas the Tank Engine">
+                    <input id='train-name' type="text" class="form-control" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>Destination</label>
-                    <input type="text" class="form-control" placeholder="Neverland">
+                    <input id='destination' type="text" class="form-control" placeholder="">
                 </div>
                 <div class="form-group">
                     <label>First Train Time (HH:MM - military time)</label>
-                    <input type="text" class="form-control" placeholder="13:13">
+                    <input id='start-time' type="text" class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label>Train Frequency(min)</label>
+                    <input id='frequency' type="number" class="form-control" placeholder="">
                 </div>
             </form>
-            <button id='btn' type="button" class="btn btn-lg btn-inline">Submit</button>
+            <button id='submit' type="button" class="btn btn-lg btn-inline">Submit</button>
 
         </div>
+        <!-- script link -->
+        <script src="assets/script/script.js"></script>
 </body>
 </div>
 
