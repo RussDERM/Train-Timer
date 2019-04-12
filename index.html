@@ -16,25 +16,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Firebase reference -->
     <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+    <!-- moment -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-4">Train team.</h1>
-            <p class="lead">it's train time, bitches</p>
+            <h1 class="display-4">Train Time.</h1>
+            <p class="lead">choo choo, muthaf*****</p>
             </p>
         </div>
         <div class="section">
             <div id='card-header' class="card-header">Current Train Schedule</div>
-            <table class='table'>
-                <tr id='lables'>
-                    <th>Train Name</th>
-                    <th>Destination</th>
-                    <th>Frequency (min)</th>
-                    <th>Next Arrival</th>
-                    <th>Minutes Away</th>
-                </tr>
+            <table id='train-data' class='table'>
+                <thead>
+                    <tr id='lables'>
+                        <th>Train Name</th>
+                        <th>Destination</th>
+                        <th>Frequency (min)</th>
+                        <th>Next Arrival</th>
+                        <th>Minutes Away</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
             </table>
         </div>
         <div class="section">
@@ -61,6 +68,7 @@
 
         </div>
         <!-- script link -->
+        <!-- local code -->
         <script src="assets/script/script.js"></script>
 </body>
 </div>

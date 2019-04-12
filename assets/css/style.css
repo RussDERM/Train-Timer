@@ -2,11 +2,15 @@
     text-align: center;
     border-radius: 15px;
 }
-
+/* centers text in table */
+tr {
+    text-align: center;
+}
+/* bolds table headers */
 #lables {
     font-weight: bold;
 }
-
+/* styles twitter-style card headers */
 #card-header {
     font-size: large;
     font-weight: bold;
@@ -14,19 +18,21 @@
     background-color: lightblue;
 
 }
-
+/* styles section div */
 .section{
     border: 3px solid lightblue;
     border-radius: 7px;
     margin-top: 20px;
 }
 
+/* adds padding to input boxes */
 .form-group{
     margin: 10px;
 }
-
-#btn {
+/* styles button */
+#submit {
     background-color: lightblue;
     color: white;
     margin: 10px 10px 10px 10px;
 }
+

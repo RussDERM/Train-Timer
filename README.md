@@ -1,2 +1,1 @@
-# Train-Timer
-Firebase Train Timer
+Homework hosted at : https://russderm.github.io/Train-Timer/
